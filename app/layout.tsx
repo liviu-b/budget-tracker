@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: "Budget Tracker",
   description: "Your Financial Companion",
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
