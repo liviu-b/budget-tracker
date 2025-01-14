@@ -25,6 +25,10 @@ export default function RootLayout({
           colorScheme: "dark",
         }}
       >
+        <head>
+          {/* Add the favicon */}
+          <link rel="icon" href="/favicon.png" />
+        </head>
         <body className={inter.className}>
           <Toaster richColors position="bottom-right" />
           <RootProviders>{children}</RootProviders>
