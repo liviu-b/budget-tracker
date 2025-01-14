@@ -112,10 +112,7 @@ function CategoriesCard({
 
                     <Progress
                       value={percentage}
-                      indicator={
-                        type === "income" ? "bg-emerald-500" : "bg-red-500"
-                      }
-                    />
+                      className={`w-full ${type === "income" ? "bg-emerald-500" : "bg-red-500"}`}/>
                   </div>
                 );
               })}
